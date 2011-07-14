@@ -235,3 +235,12 @@ zconstant.zother.color.css {
 identifier.function.support_mysql > delimiter.balanced.parenthesis.begin, identifier.function.support.math > delimiter.balanced.parenthesis.begin {
 	color: #cfcb90;
 }
+
+delimiter.embedded.source.php {
+    color: #92d363 !important;
+}
+
+invalid.illegal.bad-angle-bracket.html {
+    color: #96cafe;
+    background-color: transparent;
+}
