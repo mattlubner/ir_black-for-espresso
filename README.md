@@ -12,5 +12,5 @@ To install themes, move them to ~/Library/Application Support/Espresso/Themes, r
 
 ## LINKS
 
-[Espresso Sugars](http://sugars.macrabbit.com/)
-[Theme Syntax](http://wiki.macrabbit.com/index/SyntaxThemes/)
+- [Espresso Sugars](http://sugars.macrabbit.com/)
+- [Theme Syntax](http://wiki.macrabbit.com/index/SyntaxThemes/)
