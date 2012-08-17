@@ -17,7 +17,7 @@ tag, source, sourcecode {
 tag, tag > string > punctuation {
 	oldcolor: #8FCFFF;
 	lessoldcolor: #9FDFFF;
-	color: #;
+/*	color: #;*/
 }
 
 tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
@@ -40,7 +40,7 @@ attribute-name, punctuation.definition.tag {
 
 tag > string.quoted, tag > attribute-with-value > string.quoted {
 	color: #d183ad;
-	background-color: #transparent; /* FIXME */
+	background-color: transparent; /* FIXME */
 }
 
 tag > string > punctuation {
@@ -108,8 +108,7 @@ keyword.control, storage.type {
 }
 
 constant.numeric, constant.language {
-	color: #7653c1;
-	background-color: #f3f2ff;
+	color: #FD5FF1;
 }
 
 invalid {
@@ -173,12 +172,32 @@ constant.character.escape.js {
 /* CSS
 ------------------------------------------------------------- */
 
-selector.css { 
-    color: #62b1fe;
+selector.css {
+    color: #62B1FE;
 }
 
-css property-list > property-value { color:#f9ee98; }
-css property-list > property-name { color:#fff; }
+support.function.misc.css name {
+	color: #DAD085;
+}
+
+support.function.misc.css string {
+	color: #A8FF60;
+}
+
+css property-list > property-value { color: #f9ee98; }
+css property-list > property-name { color: #fff; }
+
+punctuation.separator.key-value.css {
+	color: #fff;
+}
+
+punctuation.terminator.rule.css {
+	color: #fff;
+}
+
+constant.other.color {
+	color: #87C38A;
+}
 
 /* PHP
 ------------------------------------------------------------- */
@@ -220,15 +239,19 @@ variable.parameter {
     color: #c6c5fe;
 }
 
-zkeyword.other.zunit.css {
+keyword.other.unit.css {
     color: #96cafe;
 }
 
-zconstant.nzumeric.css, string.quoted.double {
-    color: #ee9fd3;
+keyword.important.css {
+	color: #96CBFE;
 }
 
-zconstant.zother.color.css {
+constant.numeric.css, string.quoted.double {
+    color: #FF73FD;
+}
+
+constant.other.color.css {
     color: #99cc99;
 }
 
