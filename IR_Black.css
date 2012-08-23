@@ -24,6 +24,10 @@ tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quo
 	oldcolor: #2F5F7F;
 }
 
+attribute-value.string.quoted punctuation {
+	color: #A8FF60;
+}
+
 tag > punctuation.definition.begin, tag > punctuation.definition.end {
 	color: #96cbed;
 }
@@ -39,7 +43,7 @@ attribute-name, punctuation.definition.tag {
 }
 
 tag > string.quoted, tag > attribute-with-value > string.quoted {
-	color: #d183ad;
+	color: #A8FF60;
 	background-color: transparent; /* FIXME */
 }
 
