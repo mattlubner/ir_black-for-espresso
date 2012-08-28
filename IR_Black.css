@@ -128,6 +128,44 @@ textile > header {
 /* JavaScript
 -------------------------------------------------------------- */
 
+js * {
+/*	color: #8b8b8b;*/
+}
+
+js function.definition name {
+	color: #ffd7ab;
+}
+
+js operator, js variable {
+	color: #fff;
+}
+
+js type {
+    color: #DAD085;
+}
+
+js string.quoted, js string.quoted punctuation {
+	color: #A8FF60;
+    background-color: #000;
+}
+
+js keyword {
+    color: #96cafe;
+}
+
+js keyword.language {
+    color: #b5b8e8;/* light purple, FIX ME! */
+}
+
+js language.constant {
+	color: #87C38A;
+}
+
+
+
+
+
+
 storage.type.js, support.function.js {
 	color: #cfcb90;
 }
