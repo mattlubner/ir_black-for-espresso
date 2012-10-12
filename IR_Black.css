@@ -309,3 +309,30 @@ invalid.illegal.bad-angle-bracket.html {
     color: #96cafe;
     background-color: transparent;
 }
+
+
+/* Mustache
+------------------------------------------------------------- */
+mustache.embedded, mustache.embedded > punctuation {
+/*    color: #3a77bf;*/
+/*    color: #999;*/
+/*    color: #96cafe;*/
+/*    color: #A8FF60;*/
+/*    color: #ffd7ab;*/
+/*    color: #62B1FE;*/
+/*    color: #87C38A;*/
+/*    background-color: #162017;*/
+/*    color: #C6C5FE;*/
+    color: #7b7aa6;
+    background-color: #1f1933;
+}
+/*mustache.embedded > punctuation {
+/*    color: #96cafe;*!/
+/*    color: #3a77bf;*!/
+/*    color: #555;*!/
+/*    color: #999;*!/
+/*    color: #87C38A;*!/
+/*    color: #62B1FE;*!/
+/*    color: #C6C5FE;*!/
+    color: #6c6b9c;
+}*/
